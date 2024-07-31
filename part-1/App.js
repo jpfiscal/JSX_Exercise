@@ -1,8 +1,8 @@
 const App = () => (
-    <div>
+    <div class="tweet">
         <FirstComponent />
         <NamedComponent name="John"/>
     </div>
 )
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root")); 
